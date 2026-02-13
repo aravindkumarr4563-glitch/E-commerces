@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us - E-COM</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,Helvetica,sans-serif}
+body{background:#00050b}
+header{background:#111;color:#e90716;padding:15px;text-align:center;font-size:22px}
+.contact-container{display:flex;flex-wrap:wrap;gap:30px;padding:40px;max-width:1100px;margin:auto}
+.contact-info{flex:1;min-width:280px}
+.contact-info h2{margin-bottom:15px}
+.contact-info p{margin-bottom:10px;color:#6d7c7a}
+.contact-form{flex:1;min-width:280px;background:#fff;padding:25px;border-radius:10px;box-shadow:0 0 10px rgba(0,0,0,0.1)}
+.contact-form h2{margin-bottom:15px}
+.contact-form input,.contact-form textarea{width:100%;padding:10px;margin:10px 0;border:1px solid #ccc;border-radius:5px}
+.contact-form button{width:100%;padding:12px;background:#111;color:#fff;border:none;border-radius:5px;font-size:16px;cursor:pointer}
+.contact-form button:hover{background:#333}
+.map{margin:40px auto;max-width:1100px;padding:0 40px}
+iframe{width:100%;height:300px;border-radius:10px;border:0}
+footer{text-align:center;padding:15px;background:#111;color:#fff;margin-top:30px}
+@media(max-width:768px){.contact-container{padding:20px}}
+</style>
+</head>
+<body>
+
+<header>E-COM- Contact Us</header>
+
+<section class="contact-container">
+  <div class="contact-info">
+    <h2>Get in Touch</h2>
+    <p><b>Address:</b> 123, Main Road, tirunelveli, India</p>
+    <p><b>Email:</b> support@e-com.com</p>
+    <p><b>Phone:</b> +91 98765 43210</p>
+    <p>We are available 24/7 to support you.</p>
+  </div>
+
+  <div class="contact-form">
+    <h2>Contact form</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <input type="text" placeholder="Subject" required>
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">WELCOME</button>
+    </form>
+  </div>
+</section>
+
+<div class="map">
+  <iframe src="https://maps.google.com/maps?q=chennai&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+</div>
+
+<footer>
+  © 2K26 E-COM | Contact Page
+</footer>
+
+</body>
+</html>
